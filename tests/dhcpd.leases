@@ -1,0 +1,131 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.2.5-P1 Gentoo-r0
+
+lease 192.168.2.10 {
+  starts 0 2013/05/12 13:40:04;
+  ends 0 2013/05/12 13:42:09;
+  tstp 0 2013/05/12 13:42:09;
+  cltt 0 2013/05/12 13:40:04;
+  binding state free;
+  hardware ethernet b8:27:eb:57:de:7d;
+}
+lease 192.168.2.11 {
+  starts 0 2013/05/12 13:51:23;
+  ends 0 2013/05/12 13:54:41;
+  tstp 0 2013/05/12 13:54:41;
+  cltt 0 2013/05/12 13:51:23;
+  binding state free;
+  hardware ethernet b8:27:eb:15:fa:78;
+}
+lease 192.168.2.12 {
+  starts 0 2013/05/12 14:01:09;
+  ends 0 2013/05/12 14:03:32;
+  tstp 0 2013/05/12 14:03:32;
+  cltt 0 2013/05/12 14:01:09;
+  binding state free;
+  hardware ethernet b8:27:eb:e7:fb:72;
+}
+lease 192.168.2.13 {
+  starts 0 2013/05/12 14:11:08;
+  ends 0 2013/05/12 16:11:08;
+  tstp 0 2013/05/12 16:11:08;
+  cltt 0 2013/05/12 14:11:08;
+  binding state free;
+  hardware ethernet b8:27:eb:02:6d:4e;
+}
+lease 192.168.2.14 {
+  starts 6 2013/05/18 10:39:36;
+  ends 6 2013/05/18 12:39:36;
+  tstp 6 2013/05/18 12:39:36;
+  cltt 6 2013/05/18 10:39:36;
+  binding state free;
+  hardware ethernet d4:ca:6d:53:8d:e6;
+  uid "\001\324\312mS\215\346";
+}
+lease 192.168.2.15 {
+  starts 6 2013/05/18 10:45:08;
+  ends 6 2013/05/18 12:45:08;
+  tstp 6 2013/05/18 12:45:08;
+  cltt 6 2013/05/18 10:45:08;
+  binding state free;
+  hardware ethernet fc:a1:3e:73:be:d6;
+}
+lease 192.168.2.22 {
+  starts 6 2013/05/18 10:51:50;
+  ends 6 2013/05/18 12:51:50;
+  tstp 6 2013/05/18 12:51:50;
+  cltt 6 2013/05/18 10:51:50;
+  binding state free;
+  hardware ethernet 8c:70:5a:7c:e7:f8;
+}
+lease 192.168.2.23 {
+  starts 6 2013/05/18 11:14:21;
+  ends 6 2013/05/18 13:14:21;
+  tstp 6 2013/05/18 13:14:21;
+  cltt 6 2013/05/18 11:14:21;
+  binding state free;
+  hardware ethernet 0c:60:76:53:dd:8c;
+  uid "\001\014`vS\335\214";
+}
+lease 192.168.2.24 {
+  starts 6 2013/05/18 11:20:39;
+  ends 6 2013/05/18 13:20:39;
+  tstp 6 2013/05/18 13:20:39;
+  cltt 6 2013/05/18 11:20:39;
+  binding state free;
+  hardware ethernet 7c:61:93:0d:00:09;
+}
+lease 192.168.2.16 {
+  starts 6 2013/05/18 11:28:01;
+  ends 6 2013/05/18 13:28:01;
+  tstp 6 2013/05/18 13:28:01;
+  cltt 6 2013/05/18 11:28:01;
+  binding state free;
+  hardware ethernet e4:ce:8f:2e:5d:1a;
+  uid "\001\344\316\217.]\032";
+}
+lease 192.168.2.18 {
+  starts 6 2013/05/18 11:30:54;
+  ends 6 2013/05/18 13:30:54;
+  tstp 6 2013/05/18 13:30:54;
+  cltt 6 2013/05/18 11:30:54;
+  binding state free;
+  hardware ethernet 8c:a9:82:3d:f8:92;
+}
+lease 192.168.2.19 {
+  starts 6 2013/05/18 11:36:57;
+  ends 6 2013/05/18 13:36:57;
+  tstp 6 2013/05/18 13:36:57;
+  cltt 6 2013/05/18 11:36:57;
+  binding state free;
+  hardware ethernet 68:5d:43:a1:1b:84;
+  uid "\001h]C\241\033\204";
+}
+lease 192.168.2.20 {
+  starts 6 2013/05/18 11:39:38;
+  ends 6 2013/05/18 13:39:38;
+  tstp 6 2013/05/18 13:39:38;
+  cltt 6 2013/05/18 11:39:38;
+  binding state free;
+  hardware ethernet 58:94:6b:d8:c9:c4;
+  uid "\001X\224k\330\311\304";
+}
+lease 192.168.2.21 {
+  starts 6 2013/05/18 11:40:40;
+  ends 6 2013/05/18 13:40:40;
+  tstp 6 2013/05/18 13:40:40;
+  cltt 6 2013/05/18 11:40:40;
+  binding state free;
+  hardware ethernet 10:40:f3:96:5a:1a;
+  uid "\001\020@\363\226Z\032";
+}
+lease 192.168.2.17 {
+  starts 6 2013/05/18 11:56:33;
+  ends 6 2013/05/18 13:56:33;
+  tstp 6 2013/05/18 13:56:33;
+  cltt 6 2013/05/18 11:56:33;
+  binding state free;
+  hardware ethernet 74:e5:0b:c5:57:5c;
+}
+server-duid "\000\001\000\001\031\"V/\000\037\0268:\325";
+
