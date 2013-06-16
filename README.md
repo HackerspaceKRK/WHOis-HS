@@ -24,5 +24,5 @@ nose - for runnig test
 Tests 
 =======
 
-For run test use ```nosetest```
+For run test use ```nosetest``` or just ```python tests```
 
