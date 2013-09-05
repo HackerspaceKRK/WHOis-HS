@@ -6,7 +6,7 @@ class User
   property :id, Serial
   property :display_name, String, :length => 100, :required => true
   property :login, String, :required => true , :length => 10
-  property :last_login, Date 
+  property :last_login, DateTime
   property :password, String, :length => 64, :writer => :private
 
   has n, :device
