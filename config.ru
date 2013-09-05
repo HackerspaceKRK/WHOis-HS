@@ -1,5 +1,3 @@
-require './app/config.rb'
-require './app/application.rb'
-
+require './app/boot.rb'
 
 run WHOIS

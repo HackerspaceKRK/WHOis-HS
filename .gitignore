@@ -5,3 +5,5 @@
 sessions/*
 database.db
 localconfig.cfg
+.*
+*~
