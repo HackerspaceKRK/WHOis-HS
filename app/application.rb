@@ -1,4 +1,3 @@
-
 class WHOIS < Sinatra::Base
   
   get '/' do

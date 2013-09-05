@@ -1,4 +1,8 @@
-require '../app/boot.rb'
+require 'bundler/setup'
+
+Bundler.require(:test)
+
+require './app/boot.rb'
 
 RSpec.configure do |config|
   config.treat_symbols_as_metadata_keys_with_true_values = true

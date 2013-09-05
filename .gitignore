@@ -3,7 +3,8 @@
 *.pyc
 *.pyo
 sessions/*
-database.db
+db/database.sqlite
 localconfig.cfg
+tmp
 .*
 *~
