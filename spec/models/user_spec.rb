@@ -12,12 +12,13 @@ describe User do
 
   it { should respond_to :id }
 
-
   it { should respond_to :last_login }
 
   it { should respond_to :password= }
 
   it { should respond_to :authenticate }
+
+  it { should have_many(:device) }
 
   let(:user){ User.new }
 

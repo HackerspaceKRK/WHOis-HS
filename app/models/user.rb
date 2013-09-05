@@ -9,6 +9,8 @@ class User
   property :last_login, Date 
   property :password, String, :length => 64, :writer => :private
 
+  has n, :device
+
   def password=(new_password)
     super(hash_password(new_password))
   end
