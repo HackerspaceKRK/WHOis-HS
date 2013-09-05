@@ -8,3 +8,4 @@ localconfig.cfg
 tmp
 .*
 *~
+\#*
