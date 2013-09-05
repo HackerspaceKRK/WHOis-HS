@@ -29,6 +29,9 @@ GEM
       dm-core (~> 1.2.0)
     dm-migrations (1.2.0)
       dm-core (~> 1.2.0)
+    dm-rspec (0.2.4)
+      dm-core
+      dm-validations
     dm-serializer (1.2.2)
       dm-core (~> 1.2.0)
       fastercsv (~> 1.5)
@@ -115,6 +118,7 @@ PLATFORMS
 
 DEPENDENCIES
   datamapper
+  dm-rspec
   dm-sqlite-adapter
   guard-rspec
   rb-inotify
