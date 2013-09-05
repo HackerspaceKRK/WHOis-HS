@@ -4,5 +4,7 @@ class User
   property :id, Serial
 
 
-  property :display_name, String, :length => 100
+  property :display_name, String, :length => 100, :required => true
+
+  
 end
