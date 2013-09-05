@@ -1,0 +1,3 @@
+class WHOIS
+
+end
