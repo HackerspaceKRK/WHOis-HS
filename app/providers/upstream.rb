@@ -13,6 +13,6 @@ class UpstreamProvider
   end
 
   def active_users
-    []
+    
   end
 end

@@ -1,5 +1,16 @@
 module Whois
   ROOT = Dir.pwd
+  
+
+  module Encryption
+    def self.block_size
+      128
+    end
+
+    def self.method
+      :CFB
+    end
+  end
 
   def self.root 
     ROOT
