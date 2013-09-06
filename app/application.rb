@@ -2,7 +2,7 @@ module Whois
   class Application < Sinatra::Base
     
     get '/' do
-      render :text => "XXX"
+      erb :index
     end
 
   end
