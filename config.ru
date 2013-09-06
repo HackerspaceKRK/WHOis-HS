@@ -1,3 +1,3 @@
 require './app/boot.rb'
 
-run WHOIS
+run Whois::Application

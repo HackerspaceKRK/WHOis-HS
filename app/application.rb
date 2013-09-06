@@ -1,7 +1,9 @@
-class WHOIS < Sinatra::Base
-  
-  get '/' do
-    render :text => "XXX"
-  end
+module Whois
+  class Application < Sinatra::Base
+    
+    get '/' do
+      render :text => "XXX"
+    end
 
+  end
 end
