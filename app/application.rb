@@ -5,5 +5,9 @@ module Whois
       erb :index
     end
 
+    get '/whois' do
+      content_type 'application/json'
+    end
+
   end
 end

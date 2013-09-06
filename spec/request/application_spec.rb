@@ -23,7 +23,7 @@ describe "Application handle" do
     end
 
     it "is JSON" do 
-      page.response_headers['Content-Type'].should == 'application/json'
+      page.response_headers['Content-Type'].should match('application/json')
     end
   end
 
