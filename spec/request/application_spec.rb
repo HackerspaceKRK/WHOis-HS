@@ -17,4 +17,14 @@ describe "Application handle" do
     end
   end
 
+  describe "request on /whois and result" do
+    before do 
+      visit '/whois'
+    end
+
+    it "is JSON" do 
+      page.response_headers['Content-Type'].should == 'application/json'
+    end
+  end
+
 end
