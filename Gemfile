@@ -9,6 +9,7 @@ gem 'dm-sqlite-adapter'
 
 group :test do 
   gem 'rspec'
+  gem 'bogus'
   gem 'capybara'
   gem 'guard-rspec'
   gem 'rb-inotify'

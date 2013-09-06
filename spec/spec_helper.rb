@@ -5,6 +5,7 @@ require 'bundler/setup'
 Bundler.require(:test)
 
 require './app/boot.rb'
+require 'bogus/rspec'
 
 RSpec.configure do |config|
   config.treat_symbols_as_metadata_keys_with_true_values = true
@@ -13,4 +14,7 @@ RSpec.configure do |config|
   config.order = 'random'
 
   config.include(DataMapper::Matchers)
+
+  config.mock_with Bogus::RSpecAdapter
+
 end
