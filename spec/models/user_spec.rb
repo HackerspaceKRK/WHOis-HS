@@ -20,6 +20,8 @@ describe User do
 
   it { should have_many(:device) }
 
+  it { should have_many(:activities) }
+
   let(:user){ User.new }
 
   it "hash passwords" do

@@ -11,6 +11,8 @@ class User
 
   has n, :device
 
+  has n, :activities
+
   def password=(new_password)
     super(hash_password(new_password))
   end
