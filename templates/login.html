@@ -1,8 +1,27 @@
 $def with (form, badlogin=False)
 
-$if badlogin:
-	<p>Zły login lub hasło</p>
 
+<div class="container">
+				<div class="row welcome text-center">
+					<div class="span12">
+					
+$if badlogin:
+	<p class="lead">Błędne dane logowania</p>
+$else:
+	<p class="lead">Zaloguj się</p>
+					</div>
+				</div>
+
+				<hr>
+				<div class="row">
+					<div class="span12 text-center">
 <form action="" method="POST">
 $:form.render()
 </form>
+					</div>
+				</div>
+
+
+</div>
+
+
