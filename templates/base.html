@@ -1,13 +1,84 @@
 $def with (content)
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		
+		<meta http-equiv="Content-Language" content="pl-PL">
+		<title>Hackerspace Kraków</title>
+		<link rel="space-api" href="http://spaceapi.hskrk.pl/">
+		<link rel="Shortcut icon" href="http://hackerspace-krk.pl/wp-content/themes/hskrk/images/favicon.png">
+		<link href="http://hackerspace-krk.pl/wp-content/themes/hskrk/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="http://hackerspace-krk.pl/wp-content/themes/hskrk/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="http://hackerspace-krk.pl/wp-content/themes/hskrk/style.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script src="http://hackerspace-krk.pl/wp-content/themes/hskrk/bootstrap/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<style>
+			.lead {
+				margin-bottom: 30px;
+			}
+			#count {
+				font-size: 3em;
+				line-height: 1em;
+			}
+			.copyright {
+				font-size: 0.7em;
+			}
+		</style>
+
+	<style type="text/css"></style>
 <title>WhoIS @ Hackerspace Kraków</title>
 
 $if content.has_key('head'):
 	$:content.head
 </head>
-<body>
+<body class="home blog">
+		<div id="top">
+			<div class="container">
+				<div class="row">
+					<div class="span4">
+						<div id="mainlogo">
+							<a href="http://hackerspace-krk.pl/" data-ytta-id="-"><img src="./Hackerspace Kraków_files/logo.png" alt="Hackerspace Kraków"></a>
+						</div>
+					</div>
+					<div class="span8">
+						<div id="topmenu">
+							<ul id="menu-gorne-menu" class="nav nav-pills">
+								<li class="menu-item"><a href="http://hackerspace-krk.pl/kategoria/blog" data-ytta-id="-">Blog</a></li>
+								<li class="menu-item"><a target="_blank" href="http://wiki.hackerspace-krk.pl/" data-ytta-id="-">Wiki</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="ornament1"></div>
+
 $:content
+
+		<div id="ornament2"></div>
+
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="span12 teledata">
+						<span class="name">Fundacja Hackerspace Kraków</span><br>
+						<span class="address">Radziwiłłowska 20/2, 31-026 Krakow</span><br>
+						<span class="copyright">2013 Copyright by Hackerspace Kraków, All right reserved</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
 </body>
 </html>
+
+
